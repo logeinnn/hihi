@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo span{
+    color: white;
+}
+
+.logo{
+    font-size: 2em;
+    color: red;
+    cursor: default;
+}
+
+.navigation a{
+    font-size: 1.1em;
+    color: red;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover{
+    color:white
+}
+
+.btn-talk{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 10px;
+    border: 2px solid red;
+    font-weight: 500;
+
+}
+
+.btn-talk:hover{
+    color: red;
+    background: transparent;
+}
+
+.home{
+    position: relative;
+    width: 90%;
+    height: 98vh;
+    background: url('fact.jpg');
+    background-size: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content{
+    max-width: 500px;
+    color: red;
+}
+
+.content h2{
+    font-size: 3em;
+}
+
+.content h2 span{
+    color: white;
+}
+
+.content h4{
+    font-size: 2em;
+}
+
+.btn-group{
+    margin-top: 50px;
+}
+.btn-group a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px ;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+    font-weight: 500;
+}
+
+.btn-group a:hover{
+    color: red;
+    background: transparent;
+}
